@@ -1,5 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.native_animated_splash_screen">
+            xmlns:tools="http://schemas.android.com/tools"
+
+
+    package="com.example.native_animated_splash_screen"
+    
+    >
    <application
         android:label="native_animated_splash_screen"
         android:name="${applicationName}"
@@ -30,5 +35,13 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.native_animated_splash_screen.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+             <meta-data android:name="app.rive.runtime.kotlin.RiveInitializer"
+                android:value="androidx.startup" />
+        </provider>
     </application>
 </manifest>
