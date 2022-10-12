@@ -1,0 +1,37 @@
+PODS:
+  - Flutter (1.0.0)
+  - RiveRuntime (2.0.0)
+  - Usercentrics (2.7.4)
+  - usercentrics_sdk (2.7.4):
+    - Flutter
+    - UsercentricsUI (= 2.7.4)
+  - UsercentricsUI (2.7.4):
+    - Usercentrics (= 2.7.4)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - RiveRuntime
+  - usercentrics_sdk (from `.symlinks/plugins/usercentrics_sdk/ios`)
+
+SPEC REPOS:
+  trunk:
+    - RiveRuntime
+    - Usercentrics
+    - UsercentricsUI
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  usercentrics_sdk:
+    :path: ".symlinks/plugins/usercentrics_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  RiveRuntime: 652405f21b13124dbdb727da35254fcd2000d543
+  Usercentrics: 08aa3394801aed6d45bbffee0d48c49519ffbe6b
+  usercentrics_sdk: 71423e152c3c35943ed71087c44ecab8bb7e2868
+  UsercentricsUI: 390f928c767bde895299c11dbc10da4ada665d79
+
+PODFILE CHECKSUM: d45f30a6c295e6ffd6ef5d65cad0f630f15ff107
+
+COCOAPODS: 1.11.3
