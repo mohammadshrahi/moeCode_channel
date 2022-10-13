@@ -1,6 +1,6 @@
 # native_animated_splash_screen
 
-A new Flutter project.
+Flutter Version:3.3.4
 
 ## Getting Started
 
