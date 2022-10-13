@@ -13,7 +13,7 @@ import app.rive.runtime.kotlin.RiveArtboardRenderer.Listener
 import app.rive.runtime.kotlin.core.PlayableInstance
 import io.flutter.embedding.android.FlutterActivity
 
-class ShopSplashScreen(val activity: FlutterActivity) : SplashScreen {
+class AppSplashScreen(val activity: FlutterActivity) : SplashScreen {
     var animated: Boolean = false
     lateinit var riveView: RiveAnimationView
     override fun createSplashView(context: Context, savedInstanceState: Bundle?): View {
