@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:storyly_flutter/storyly_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -95,6 +96,16 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Container(
+              height: 120,
+              child: StorylyView(
+                  androidParam: StorylyParam()
+                    ..storylyId =
+                        'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjc2MCwiYXBwX2lkIjo0MDUsImluc19pZCI6NDA0fQ.1AkqOy_lsiownTBNhVOUKc91uc9fDcAxfQZtpm3nj40',
+                  iosParam: StorylyParam()
+                    ..storylyId =
+                        'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjc2MCwiYXBwX2lkIjo0MDUsImluc19pZCI6NDA0fQ.1AkqOy_lsiownTBNhVOUKc91uc9fDcAxfQZtpm3nj40'),
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),

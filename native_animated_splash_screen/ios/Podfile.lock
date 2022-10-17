@@ -1,22 +1,32 @@
 PODS:
   - Flutter (1.0.0)
   - RiveRuntime (2.0.29)
+  - Storyly (1.26.2)
+  - storyly_flutter (1.26.0):
+    - Flutter
+    - Storyly (~> 1.26.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - RiveRuntime (= 2.0.29)
+  - storyly_flutter (from `.symlinks/plugins/storyly_flutter/ios`)
 
 SPEC REPOS:
   trunk:
     - RiveRuntime
+    - Storyly
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  storyly_flutter:
+    :path: ".symlinks/plugins/storyly_flutter/ios"
 
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   RiveRuntime: 018e08154143499b24b166a6415e60ce61d2fafd
+  Storyly: 9f7694d816cbe22d1d5604b7653e75feabf1915f
+  storyly_flutter: 7b21add753cd8407b88fcbcfce32e06e1a20b798
 
 PODFILE CHECKSUM: fefc754d9dd44c43c26ca176e1fe776d976f91c6
 
