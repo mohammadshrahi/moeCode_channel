@@ -1,3 +1,13 @@
+
+# ملاحظة: لاتنسى باضافة ال map key
+# ios -> appDelegate.swift
+# andorid -> AndroidManifest.xml
+# استبدل عبارة your key here
+# بال key الخاص بك
+
+
+
+
 # widget_map_marker
 
 A new Flutter project.
