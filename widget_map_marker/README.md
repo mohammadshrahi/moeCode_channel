@@ -1,6 +1,7 @@
 # widget_map_marker
 
 A new Flutter project.
+# Flutter version: 3.3.4
 
 ## Getting Started
 
